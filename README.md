@@ -38,5 +38,13 @@ Today i did:
 `CTRL + S` => save file (in vscode)
 `CTRL + R` => reload (in firefox)
 
-# git
+## git
 
+### git one time commands per project
+`git init` => initiates a new/empty repository(project/folder that you wanna track
+
+### git working flow
+`git status` => shows current status of git/changes/tracked files  
+`git add cat.jpg index.html lili.html` => tell git to start tracking 3 files (put them to the bus station)  
+`git commit -m "add all files to git initially"` => commits the currently staged files (let them pick up by the bus)
+`git push` => synchronises with gitHUB, uploads all your commits/code to the remote
