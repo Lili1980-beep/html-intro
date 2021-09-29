@@ -45,6 +45,7 @@ Today i did:
 
 ### git working flow
 `git status` => shows current status of git/changes/tracked files  
+`git diff` => shows all the changes since the last commit
 `git add cat.jpg index.html lili.html` => tell git to start tracking 3 files (put them to the bus station)  
 `git commit -m "add all files to git initially"` => commits the currently staged files (let them pick up by the bus)
 `git push` => synchronises with gitHUB, uploads all your commits/code to the remote
