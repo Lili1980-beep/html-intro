@@ -45,9 +45,9 @@ Today i did:
 ### git one time commands per project
 `git init` => initiates a new/empty repository(project/folder that you wanna track
 
-### git working flow
+### git working flow => creates and pushes one git commit
 `git status` => shows current status of git/changes/tracked files  
 `git diff` => shows all the changes since the last commit
 `git add cat.jpg index.html lili.html` => tell git to start tracking 3 files (put them to the bus station)  
-`git commit -m "add all files to git initially"` => commits the currently staged files (let them pick up by the bus)
+`git commit -m "add all files to git initially"` => commits the currently staged files (let them pick up by the bus) `-m` lets you define a custom message
 `git push` => synchronises with gitHUB, uploads all your commits/code to the remote
