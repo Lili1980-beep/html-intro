@@ -6,16 +6,6 @@
 - firefox + devtools
 - slack for communication
 
-## terminal introduction
-`dir`  => show contents of current directory
-`cd FOLDERNAME` => "change directory" changes current directory to FOLDERNAME  
-`cd ..` => changes directory one folder up  
-`cp FOLDERNAME NEWFOLDERNAME` => copies a file from FOLDER to NEWFOLDERNAME  
-`move OLDFILENAME NEWFILENAME` => moves/renames a file OLDFILENAME to NEWFILENAME
-`move ../FILEFROMUPPERFOLDER .` => move the file from the upper folder to HERE ( . )  
-`mkdir NEWFOLDERNAME` => creates NEWFOLDERNAME  
-`cd F` and press TAB => it will autocomplete eveything with F at the beginning
-
 
 ## markdown syntax examples
 
@@ -37,6 +27,18 @@ Today i did:
 
 `CTRL + S` => save file (in vscode)
 `CTRL + R` => reload (in firefox)
+
+
+## terminal introduction
+`dir`  => show contents of current directory
+`cd FOLDERNAME` => "change directory" changes current directory to FOLDERNAME  
+`cd ..` => changes directory one folder up  
+`cp FOLDERNAME NEWFOLDERNAME` => copies a file from FOLDER to NEWFOLDERNAME  
+`move OLDFILENAME NEWFILENAME` => moves/renames a file OLDFILENAME to NEWFILENAME
+`move ../FILEFROMUPPERFOLDER .` => move the file from the upper folder to HERE ( . )  
+`mkdir NEWFOLDERNAME` => creates NEWFOLDERNAME  
+`cd F` and press TAB => it will autocomplete eveything with F at the beginning
+
 
 ## git
 
