@@ -48,7 +48,8 @@ Today i did:
 ### git working flow => creates and pushes one git commit
 `git status` => shows current status of git/changes/tracked files  
 `git diff` => shows all the changes since the last commit. You can leave git diff with `q`
-`git add cat.jpg index.html lili.html` => tell git to start tracking 3 files (put them to the bus station)  
-`git add .` => tell git to add ALL the changes
+#### DO ONE OF THE FOLLOWING: 
+- `git add cat.jpg index.html lili.html` => Either you tell git to start tracking 3 individual files (put them to the bus station)  
+- `git add .` => ... OR tell git to add ALL the changes
 `git commit -m "add all files to git initially"` => commits the currently staged files (let them pick up by the bus) `-m` lets you define a custom message
 `git push` => synchronises with gitHUB, uploads all your commits/code to the remote
